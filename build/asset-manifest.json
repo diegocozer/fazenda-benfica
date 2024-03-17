@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/static/css/main.c0f2810e.css",
+    "main.js": "/static/js/main.79d6c5e2.js",
+    "static/media/nascer-do-sol.jpg": "/static/media/nascer-do-sol.d3675716a0a8b2282aec.jpg",
+    "static/media/fazenda-foto.png": "/static/media/fazenda-foto.4be3911ccfaee99a7eb9.png",
+    "static/media/alianca.jpg": "/static/media/alianca.4c896dc6df0f53841f3c.jpg",
+    "static/media/danca-gaucha.webp": "/static/media/danca-gaucha.c68907fd8d1fbebc5d0d.webp",
+    "static/media/mesa-jantar.jpg": "/static/media/mesa-jantar.c95676bb04cf41c9e647.jpg",
+    "static/media/casamento.webp": "/static/media/casamento.02196ffc716aca6bd086.webp",
+    "static/media/logo.png": "/static/media/logo.7c3559fdfb58d9c72c78.png",
+    "index.html": "/index.html",
+    "main.c0f2810e.css.map": "/static/css/main.c0f2810e.css.map",
+    "main.79d6c5e2.js.map": "/static/js/main.79d6c5e2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c0f2810e.css",
+    "static/js/main.79d6c5e2.js"
+  ]
+}
