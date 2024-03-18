@@ -9,30 +9,30 @@ function NavBar() {
           <img className="w-28" src={logoFazenda} alt="Retrato de um cavalo com um fundo marrom seguido pelo nome da fazenda" />
 
         </div>
-        <div className="font-black">
+        <div className="font-black ">
           <ul className="ml-auto">
             <li>
               <a
                 href="#"
-                className="text-sm text-gray-500 hover:text-gray-800 hover:underline mr-4"
+                className="ms:text-sm text-xs text-gray-500 hover:text-gray-800 hover:underline mr-4"
               >
                 Como reservar
               </a>
               <a
                 href="#"
-                className="text-sm text-gray-500 hover:text-gray-800 hover:underline mr-4"
+                className="text-sm text-xs text-gray-500 hover:text-gray-800 hover:underline mr-4"
               >
                 Sobre nós
               </a>
               <a
                 href="#"
-                className="text-sm text-gray-500 hover:text-gray-800 hover:underline mr-4"
+                className="text-sm text-xs text-gray-500 hover:text-gray-800 hover:underline mr-4"
               >
                 Informações
               </a>
               <a
                 href="#"
-                className="text-sm text-gray-500 hover:text-gray-800 hover:underline mr-4"
+                className="text-sm text-xs text-gray-500 hover:text-gray-800 hover:underline mr-4"
               >
                 Contato
               </a>

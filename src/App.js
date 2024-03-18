@@ -2,7 +2,10 @@
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import React, { useEffect } from 'react';
+import { IoLogoWhatsapp } from 'react-icons/io';
 import './App.css';
+import Acordion from './components/Acordion';
+import AccordionInformacoesAdc from './components/AcordionInformacoesAdc';
 import Banner from './components/Banner';
 import Destaque from './components/Destaque';
 import Footer from './components/Footer';
@@ -21,7 +24,13 @@ function App() {
         <Banner />
         <Destaque />
         <Fotos />
+        <Acordion />
+        <AccordionInformacoesAdc />
         <Footer />
+        <div className="fixed text-green-500 bottom-14 right-1  md:right-32 flex flex-col justify-center items-center">
+          <p>Reservas</p>
+          <IoLogoWhatsapp className="h-11 w-11" />
+        </div>
       </div>
     </div>
   );

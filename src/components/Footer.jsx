@@ -15,18 +15,21 @@ function Footer() {
       <div className="container mx-auto p-4 flex items-center justify-between">
         <div className="">
           <img className="w-12" src={logoFazenda} alt="Retrato de um cavalo com um fundo marrom seguido pelo nome da fazenda" />
-          <div className="flex justify-center items-center mt-5">
-            <FaMapLocation />
-            <p className="ml-2 text-sm text-gray-500 hover:text-gray-800 hover:underline cursor-pointer" onClick={abrirLocalizacao}>Localização</p>
-          </div>
         </div>
         <div className="flex items-center space-x-3">
-          <FaInstagram />
-          <FaFacebookSquare />
+          <p className="text-sm text-gray-500 hover:text-gray-800 hover:underline cursor-pointer flex justify-center items-center" onClick={abrirLocalizacao}>
+            Localização:
+            <span className="ml-3">
+              <FaMapLocation />
+            </span>
+          </p>
+          <FaInstagram className=" hover:text-gray-800 hover:underline cursor-pointer" onClick={() => window.open('https://www.instagram.com/fazendabenficasc/')} />
+          <FaFacebookSquare className=" hover:text-gray-800 hover:underline cursor-pointer" onClick={() => window.open('https://www.facebook.com/fazendabenficascbomretiro/')} />
         </div>
-
       </div>
-
+      <div className="flex justify-center h-10">
+        <p>🍃 Para informações mais detalhadas, entre em contato com a Ivanir via WhatsApp: (47) 98828-2047 ou através do e-mail: fazendabenficasc@gmail.com </p>
+      </div>
     </div>
   );
 }
