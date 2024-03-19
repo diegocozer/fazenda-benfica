@@ -24,7 +24,7 @@ function App() {
   }
   return (
     <div className="App text-gray-600 bg-gray-50 h-screen">
-      <div className="md:w-5/6">
+      <div className="md:w-5/6 ">
         <NavBar />
         <Banner />
         <Destaque />
@@ -33,7 +33,7 @@ function App() {
         <AccordionInformacoesAdc />
         <Footer />
         <div
-className="fixed text-green-500 bottom-9 md:bottom-14 right-1  md:right-32 flex flex-col justify-center items-center cursor-pointer"
+          className="fixed text-green-500 bottom-9 md:bottom-14 right-1  md:right-32 flex flex-col justify-center items-center cursor-pointer"
         onClick={enviarMensagemWpp}
         >
           <IoLogoWhatsapp className="md:h-11 md:w-11 h-8 w-8" />

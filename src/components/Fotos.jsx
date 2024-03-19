@@ -6,7 +6,7 @@ import mesa from '../image/mesa-jantar.jpg';
 
 function Fotos() {
   return (
-    <div className="mt-10 px-10 " id="sobre-nos">
+    <div className="mt-10 px-10  " id="sobre-nos">
       <div className="container mx-auto px-4" />
       <div>
         <h3 className="text-2xl text-center text-gray-500 font-semibold mb-8 text-gray-400 font-bold" data-aos="zoom-in">

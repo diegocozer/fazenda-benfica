@@ -38,13 +38,6 @@ function NavBar() {
               </a>
               <a
                 href="#"
-                onClick={() => scrollItem('sobre-nos')}
-                className="text-sm text-xs text-gray-500 hover:text-gray-800 hover:underline mr-4"
-              >
-                Sobre nós
-              </a>
-              <a
-                href="#"
                 onClick={() => scrollItem('informacoes')}
                 className="text-sm text-xs text-gray-500 hover:text-gray-800 hover:underline mr-4"
               >
