@@ -6,13 +6,13 @@ import * as React from 'react';
 
 export default function AccordionUsage() {
   return (
-    <div className="mt-10">
+    <div className="mt-10 mx-6" data-aos="zoom-in" id="informacoes">
       <div>
-        <h3 className="text-2xl text-center text-gray-500 font-semibold mb-8 text-gray-400 font-bold" data-aos="zoom-in">
+        <h3 className="text-2xl text-center text-gray-500 font-semibold mb-8 text-gray-400 font-bold">
           Saiba mais sobre nossa estrutura
         </h3>
       </div>
-      <Accordion data-aos="zoom-in">
+      <Accordion>
         <AccordionSummary
           expandIcon={<ExpandMoreIcon />}
           aria-controls="panel1-content"
@@ -44,7 +44,7 @@ export default function AccordionUsage() {
 
         </AccordionDetails>
       </Accordion>
-      <Accordion data-aos="zoom-in">
+      <Accordion>
         <AccordionSummary
           expandIcon={<ExpandMoreIcon />}
           aria-controls="panel1-content"
@@ -64,7 +64,7 @@ export default function AccordionUsage() {
 
         </AccordionDetails>
       </Accordion>
-      <Accordion data-aos="zoom-in">
+      <Accordion>
         <AccordionSummary
           expandIcon={<ExpandMoreIcon />}
           aria-controls="panel1-content"
@@ -83,7 +83,7 @@ export default function AccordionUsage() {
 
         </AccordionDetails>
       </Accordion>
-      <Accordion data-aos="zoom-in">
+      <Accordion>
         <AccordionSummary
           expandIcon={<ExpandMoreIcon />}
           aria-controls="panel1-content"
@@ -103,7 +103,7 @@ export default function AccordionUsage() {
 
         </AccordionDetails>
       </Accordion>
-      <Accordion data-aos="zoom-in">
+      <Accordion>
         <AccordionSummary
           expandIcon={<ExpandMoreIcon />}
           aria-controls="panel1-content"
@@ -128,7 +128,7 @@ export default function AccordionUsage() {
 
         </AccordionDetails>
       </Accordion>
-      <Accordion data-aos="zoom-in">
+      <Accordion>
         <AccordionSummary
           expandIcon={<ExpandMoreIcon />}
           aria-controls="panel1-content"

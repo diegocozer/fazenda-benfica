@@ -12,6 +12,9 @@ function Footer() {
   }
   return (
     <div className="border-t border-gray-200 mt-6">
+      <div className="flex justify-center h-10">
+        <p>🍃 Para informações mais detalhadas, entre em contato com a Ivanir. </p>
+      </div>
       <div className="container mx-auto p-4 flex items-center justify-between">
         <div className="">
           <img className="w-12" src={logoFazenda} alt="Retrato de um cavalo com um fundo marrom seguido pelo nome da fazenda" />
@@ -27,9 +30,7 @@ function Footer() {
           <FaFacebookSquare className=" hover:text-gray-800 hover:underline cursor-pointer" onClick={() => window.open('https://www.facebook.com/fazendabenficascbomretiro/')} />
         </div>
       </div>
-      <div className="flex justify-center h-10">
-        <p>🍃 Para informações mais detalhadas, entre em contato com a Ivanir via WhatsApp: (47) 98828-2047 ou através do e-mail: fazendabenficasc@gmail.com </p>
-      </div>
+
     </div>
   );
 }
